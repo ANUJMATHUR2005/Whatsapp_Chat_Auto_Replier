@@ -1,21 +1,30 @@
-# WhatsApp Auto-Responder Bot 🤖
+# 🤖 WhatsApp Auto-Responder Bot  
 
-A Python-based bot that automates WhatsApp replies using **PyAutoGUI** for automation and **g4f (GPT-for-Free)** for AI-powered responses.
+An AI-powered WhatsApp auto-replier built with **Python**, **PyAutoGUI**, and **g4f (GPT-for-Free)**.  
+It automates chat replies on WhatsApp Web, simulating natural human-like conversations in **English** and **Hindi**.  
+
+---
 
 ## ✨ Features
-- Reads last incoming message from WhatsApp
-- Replies only when the last message is from someone else (not me)
-- Generates natural responses in Hindi & English using GPT
-- Runs in a loop for continuous auto-chat
+- 📋 Extracts the latest incoming message from WhatsApp Web  
+- 🔄 Replies **only when the last message is from others** (not me)  
+- 🌐 Generates context-aware responses using GPT (g4f with MetaAI)  
+- 🗣️ Supports both English & Hindi responses  
+- ⚡ Automates continuously in a chat loop  
+
+---
 
 ## 🛠️ Tech Stack
-- **Python**
-- **PyAutoGUI** (UI automation)
-- **pyperclip** (clipboard handling)
-- **g4f** (free GPT responses)
+- **Python 3.x**  
+- [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/) → UI automation  
+- [pyperclip](https://pypi.org/project/pyperclip/) → Clipboard handling  
+- [g4f](https://github.com/xtekky/gpt4free) → GPT-for-Free library  
 
-## 🚀 Usage
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/your-username/whatsapp-auto-replier.git
-   cd whatsapp-auto-replier
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/whatsapp-auto-replier.git
+cd whatsapp-auto-replier
